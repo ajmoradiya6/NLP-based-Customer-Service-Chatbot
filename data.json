@@ -1,0 +1,159 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello, how can I assist you today?",
+          "Hi there, how may I help you?",
+          "Hey, what can I help you with?",
+          "Good [morning/afternoon/evening], how can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Take care",
+          "Thanks, bye"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "Take care, bye for now!",
+          "Thanks for contacting us. Goodbye!",
+          "It was a pleasure assisting you. Goodbye!",
+          "Goodbye, hope to see you again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Appreciate it",
+          "Thank you so much",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem, glad to help!",
+          "Anytime, happy to assist!",
+          "My pleasure, happy to help!",
+          "Glad I could be of assistance. Is there anything else I can help you with?"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need assistance",
+          "How can I get help?",
+          "What should I do?",
+          "I'm lost"
+        ],
+        "responses": [
+          "Sure, what do you need help with?",
+          "Of course, how may I assist you?",
+          "I'd be happy to help. What can I do for you?",
+          "Don't worry, I'm here to help. What's the problem?",
+          "I'm sorry to hear that you're lost. Let me guide you through the process. Where do you need help?"
+        ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I'm not satisfied",
+          "This is unacceptable",
+          "I have a complaint",
+          "I want to speak to a manager",
+          "I want a refund"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Can you please provide more details about the issue?",
+          "I apologize for the inconvenience. Please tell me what happened so I can assist you better.",
+          "I understand your frustration. Let me see what I can do to help. What's the problem?",
+          "I'm sorry to hear that you're not satisfied. Let me escalate your issue to a manager. Can you please provide your contact information?",
+          "I'm sorry to hear that you want a refund. Let me check the refund policy and process for you. Can you please provide the order number?"
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Where is my order?",
+          "What is the status of my order?",
+          "Can you track my order?",
+          "When will my order arrive?",
+          "Has my order shipped?"
+        ],
+        "responses": [
+          "Sure, let me check the status of your order. Can you please provide the order number?",
+          "I'll be happy to assist you with your order status. Can you please provide the order number or your email address?",
+          "Let me look up your order and see what the status is. Can you please provide the order number?",
+          "I'll check the shipping status of your order. Can you please provide the order number or your email address?",
+          "I can help you track your order. Can you please provide the order number or your email address?",
+          "I'm happy to help you with your order. Can you please provide the order number or your email address?"
+          ]
+          },
+          {
+          "tag": "product_inquiry",
+          "patterns": [
+          "Do you have this product in stock?",
+          "What are the specifications of this product?",
+          "Can you tell me more about this product?",
+          "Is this product available in other colors?",
+          "What is the price of this product?"
+          ],
+          "responses": [
+          "Let me check if we have this product in stock. Can you please provide the product name or SKU?",
+          "Sure, I can provide you with the specifications of this product. Can you please provide the product name or SKU?",
+          "I'd be happy to tell you more about this product. Can you please provide the product name or SKU?",
+          "I'll check if this product is available in other colors. Can you please provide the product name or SKU?",
+          "The price of this product is [price]. Can I help you with anything else?"
+          ]
+          },
+          {
+          "tag": "agent",
+          "patterns": [
+          "Can I speak to a human?",
+          "Is there a real person I can talk to?",
+          "I want to speak to an agent",
+          "Can you transfer me to a customer service representative?",
+          "I need to speak with someone"
+          ],
+          "responses": [
+          "I'm sorry if I couldn't assist you. Let me transfer you to a customer service representative. Please hold on.",
+          "Of course, let me connect you to a customer service representative. Please wait for a moment.",
+          "I understand that you need to speak with someone. Please hold on while I transfer you to a customer service representative.",
+          "Sure, I'll transfer you to a customer service representative. Please wait for a moment.",
+          "I'll connect you to a human agent who can assist you better. Please wait for a moment."
+          ]
+          },
+          {
+          "tag": "unknown",
+          "patterns": [
+          "Sorry, I don't understand",
+          "I'm not sure what you mean",
+          "Could you please rephrase that?",
+          "I didn't catch that",
+          "What do you mean?"
+          ],
+          "responses": [
+          "I apologize if I didn't understand. Can you please provide more details?",
+          "I'm sorry, could you please rephrase your question or concern?",
+          "I'm not sure I understand. Can you please provide more information?",
+          "I'm sorry, can you please provide more context or clarify your question?",
+          "I apologize if I missed something. Can you please repeat your question or concern?"
+          ]
+          }
+          ]
+          }
+  
